@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 public class Task {
     String title;
     String priority;
@@ -8,7 +10,8 @@ public class Task {
         this.title = title;
         this.priority = priority;
         this.isCompleted = false;
-        this.createdAt = java.time.LocalDateTime.now().toString();
+       DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy, hh:mm a");
+this.createdAt = LocalDateTime.now().format(formatter);
     }
 
     public void markComplete() {
