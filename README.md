@@ -1,2 +1,28 @@
-# Smart-Task-Manager-Java-CLI-Application-
-Smart Task Manager (Java CLI Application)  * Developed a command-line task management system using Java * Implemented CRUD operations with priority handling and completion tracking * Integrated file-based persistence to store and retrieve tasks * Applied object-oriented programming concepts for clean structure
+# Smart Task Manager (Java CLI)
+
+A command-line based task management system built using Java. This application allows users to manage tasks efficiently with features like priority handling, completion tracking, and file-based persistence.
+
+## Features
+
+* Add, delete, and view tasks
+* Mark tasks as completed
+* Priority levels (High/Medium/Low)
+* Timestamp for each task
+* Persistent storage using file handling
+
+## Technologies Used
+
+* Java
+* File Handling
+* OOP Concepts
+
+## How to Run
+
+1. Compile:
+   javac Main.java Task.java
+2. Run:
+   java Main
+
+## Author
+
+Sarthak Chauhan
